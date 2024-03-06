@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    width: 100%;
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#695fff    ;
+}
+
+
+.logo{
+    width: 100%;
+    max-width: 150px;
+}
+
+
+.footer-firstinfo{
+    color: #ffffff;
+    font-size: clamp(0.9375rem, 0.9167rem + 0.3333vw, 1.3125rem);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.footer-secondinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-secondinfo .name{
+    color: #e7e7e7;
+    font-size: clamp(1rem, 0.9861rem + 0.2222vw, 1.25rem);
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+

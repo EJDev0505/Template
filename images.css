@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.images-group{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.beaches{
+    font-size: clamp(1.5rem, 1.4333rem + 1.0667vw, 2.7rem);
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    width: 40rem;
+    text-align: center;
+    scroll-margin-block: 5rem;
+}
+.palawan-restu{
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1.8;
+}
+.img-banner{    
+    width: 70%;
+    height: 100%;
+    gap: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.first-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.first-info .Info{
+    color: #000;
+    font-size: clamp(0.9375rem, 0.9285rem + 0.1444vw, 1.1rem);
+    font-family: Arial, sans-serif;
+    line-height: 1.7rem;
+}
+
+.first-info .palawan-restu{
+    filter: grayscale(50%);
+    transition: filter 0.5s, transform 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first-info .palawan-restu:hover{
+    filter: grayscale(0);
+    transform: scale(1.01);
+}
+
+
+
+.second-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.second-info .Info{
+    color: #000;
+    font-size: clamp(0.9375rem, 0.9285rem + 0.1444vw, 1.1rem);
+    font-family: Arial, sans-serif;
+    line-height: 1.7rem;
+}
+
+
+.second-info .palawan-restu{
+    filter: grayscale(50%);
+    transition: filter 0.5s, transform 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second-info .palawan-restu:hover{
+    filter: grayscale(0);
+    transform: scale(1.01);
+}
+
+
+.third-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.third-info .Info{
+    color: #000;
+    font-size: clamp(0.9375rem, 0.9285rem + 0.1444vw, 1.1rem);
+    font-family: Arial, sans-serif;
+    line-height: 1.7rem;
+}
+
+ .Info h1{
+    font-size: 27px;
+    color: #695fff ;
+    letter-spacing: 2px;
+    padding-bottom: 0.5rem;
+}
+
+.third-info .palawan-restu{
+    filter: grayscale(50%);
+    transition: filter 0.5s, transform 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.third-info .palawan-restu:hover{
+    filter: grayscale(0);
+    transform: scale(1.01);
+}
+
+
+.fourt-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.fourt-info .Info{
+    color: #000;
+    font-size: clamp(0.9375rem, 0.9285rem + 0.1444vw, 1.1rem);
+    font-family: Arial, sans-serif;
+    line-height: 1.7rem;
+}
+
+
+
+.fourt-info .palawan-restu{
+    filter: grayscale(50%);
+    transition: filter 0.5s, transform 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fourt-info .palawan-restu:hover{
+    filter: grayscale(0);
+    transform: scale(1.01);
+}
+

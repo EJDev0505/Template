@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    background-color: #f3f3f3;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+#nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 3rem;
+    background-color:#695fff;
+    z-index: 2;
+   
+}
+
+.banner{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+.banner video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.fa-bars-sort{
+    color: #000;
+}
+
+.nav-links{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+#nav img{
+    height: 2.5rem;
+    width: 3rem;
+}
+
+
+.nav-links .fa-bars{
+    color: #ffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-links .fa-x{
+    color: #695fff;
+    font-size: 25px;
+    cursor: pointer;
+    padding-top: 1.5rem;
+    position: absolute;
+    right: 0;
+    padding-right: 2rem;
+}
+
+.nav-links .nav-ul{
+    position: absolute;
+    background-color: #e2e2e2;
+    height: 100dvh;
+    width: 30vh;
+    left: -300px;
+    margin-left: 0;
+    transition: 0.5s;
+    top: -2rem;
+    z-index: 1;
+    margin-left: -6rem;
+}
+
+.nav-links #ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 2rem;
+    border-radius: 4px;
+    padding: 10px 1rem;
+    padding-top: 5rem;
+    
+}
+
+.nav-links #ul a{
+    text-decoration: none;
+
+    gap: 0.5rem;
+}
+
+
+.nav-links #ul li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #695fff;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+
+
+.nav-links #ul li:hover{
+    margin-left: 1.1rem;    
+    color: #695fff; 
+}
+
+
+
+
+.contact-form{
+    background-color: #fff;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+form input{
+ border: none;
+ outline: none;
+ font-size: 16px;
+ overflow: hidden;
+}
+
+::placeholder{
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+
+.button button{
+    background-color: #2b49f0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    letter-spacing: 2px;
+   padding: 10px 1rem;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: 800; 
+   animation: bounce 0.5s cubic-bezier(1,1,1,1) infinite alternate;
+
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    margin: 4rem 0rem;
+    scroll-margin: 10rem;
+}
+
+.card-wrapper .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+.card-wrapper .card:nth-child(1){
+    border-left: none;
+}
+
+.card-wrapper .card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
+    display: flex;
+    border-left: 0.1px solid #6d6d6d44;
+    
+}
+
+.card .card-body{
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:2rem 2rem;
+}
+
+.card .card-body .fa-handshake{
+    font-size:35px;
+    color: #ff9900;
+}
+
+.card .card-body .fa-person{
+    color: #bf1ae9;
+    font-size: 35px;
+}
+
+.card .card-body .fa-location-dot{
+    color: #00c39a;
+    font-size: 35px;
+}
+
+.card .card-body .fa-cookie-bite{
+    color: #f3131e;
+    font-size: 35px;
+}
+
+.card .card-body .head-name1{
+    color: #bf1ae9;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+.card .card-body .head-name2{
+    color: #ff9900;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+.card .card-body .head-name3{
+    color: #00c39a;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+.card .card-body .head-name4{
+    color: #f3131e;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+
+.card .card-body p{
+    font-size: 17px;
+    font-family: Arial,sans-serif;
+    text-align: justify;
+}
