@@ -1,3 +1,10 @@
+window.addEventListener("load", () => {
+    const fade1 = document.querySelector(".fade1");
+        fade1.style.left = "100%";   
+});
+
+
+
 const navlinklist = document.querySelector(".nav-ul");
 const navlink = document.querySelector("#navlinks");
 const openBtn = document.querySelector("#openBtn");
@@ -38,12 +45,6 @@ function closeBtnFunction() {
 
 
 
-window.addEventListener("load", () => {
-
-
-    const fade1 = document.querySelector(".fade1");
-        fade1.style.left = "100%";   
-});
 
 
 
