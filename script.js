@@ -1,7 +1,6 @@
-window.addEventListener("load", () => {
+
     const fade1 = document.querySelector(".fade1");
-        fade1.style.left = "100%";   
-});
+        fade1.style.left = "-100%";   
 
 
 
